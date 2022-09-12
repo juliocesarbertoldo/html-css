@@ -69,12 +69,24 @@ section p {
 .imagem {
     background-color: rgb(44, 43, 43);
     color: lightgray;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 .imagem  p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
